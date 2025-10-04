@@ -3,5 +3,10 @@ resolver = "2"
 members = [
     "crates/hello_world",
     "crates/likes_counter",
-    "crates/button_component", "crates/action_keybindings",
+    "crates/button_component",
+    "crates/action_keybindings",
 ]
+
+[workspace.dependencies]
+gpui = { git = "https://github.com/zed-industries/zed", rev = "db825c1141a49597971e9091e78c1203780733db", default-features = false}
+gpui_macros = { git = "https://github.com/zed-industries/zed", rev="db825c1141a49597971e9091e78c1203780733db" }
