@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use gpui::*;
 
 const BACKGROUND_COLOR: u32 = 0x1E2027;
