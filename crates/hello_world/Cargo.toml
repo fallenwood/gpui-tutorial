@@ -10,4 +10,4 @@ gpui = { workspace = true, features = [
     "font-kit",
     "windows-manifest",
 ] }
-gpui_macros.workspace = true
+gpui-macros.workspace = true
